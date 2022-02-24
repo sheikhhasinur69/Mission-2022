@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+h1{
+    font-size: 50px;
+}
+p{
+    text-align: justify;
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
+   
+   
+}
+span{
+    color: tomato;
+}
+
+.button {
+    background-image: linear-gradient(orange,
+    tomato);
+    margin: 30px 10px;
+    padding: 10px 40px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+img{
+    width: 80%
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+    margin-left: 6%;
+}
+
+                   /* 2nd section */
+
+.my-mission{
+    text-align: center;
+}
+.mission-section{
+    display: flex;
+    padding: 10%;
+
+}    
+.mission{
+    background-color:beige ;
+    text-align: center;
+    /* width: 360px; */
+    padding: 5%;
+ 
+   
+}
+
+.vission{
+    background-color:bisque ;
+    text-align: center;
+    margin-left: 5%;
+    /* width: 360px; */
+    padding: 5%;
+    
+   
+}
+
+.goals{
+    background-color: rgb(247, 204, 239);
+    text-align: center;
+    margin-left: 5%;
+    /* width: 360px;  */
+    padding: 5%;
+   
+}
+                   /* third-section */
+.bg-banner {
+ background-image: url(images/shapes/shape-1.png);
+ background-repeat: no-repeat;
+ background-position: left;
+ background-size: 200px ;
+
+}
+
+                     /* global community section */
+
+.global-community{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+ background-position: right bottom;
+ background-size: 200px ;
+
+}
+/* corona-application section */
+.corona{
+    text-align: center;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
